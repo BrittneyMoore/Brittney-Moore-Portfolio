@@ -1,39 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header class="navigation">
-        <div class="inline-block logo"><img src="Images/designlogo.png"></div>
-        <nav class="inline-block">
-            <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <section class="heroimg">
-            <div class="content">
-            <img src="Images/NYFsuMJ4QceIJdai2Bsgag_thumb_836.jpg">
-            <p>this is a paragraph that contains information about me</p>
-            <button>Download Resume</button>
-            </div>
-           
-        </section>
+<html>
+  <head>
+    <title>Brittney Moore's Portfolio</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-------------- TOP NAVIGATION ------------>
+    <header>
+      <img class= "logo" src="images/designlogo.png">
+      <ul>
+        <li>MY WORK</li>
+        <li>ABOUT ME</li>
+        <li>RESUME</li>
+      </ul>
     </header>
+<!--************************ MAIN IMAGE SECTION -------------->
+    <section>
+      <img class="bigImage" src="https://picsum.photos/900/300" alt="random image from picsum">
+    </section>
+
+    <section>
+      <div class="skills">
+        <div class="thumbnails"> 
+          <img src="https://picsum.photos/140" alt="">
+          <img src="https://picsum.photos/140" alt="">
+          <img src="https://picsum.photos/140" alt="">
+        </div>
+      </div>
+    </section>
+
+
+    <!--************************ MIDDLE HEADSHOT -------------->
+
+    <section class="heroImg">
+      <div class="content">
+        <img id="headshot" src="images/NYFsuMJ4QceIJdai2Bsgag_thumb_836.jpg">
+        <h1>Brittney Moore</h1>
+        <p>I’m a new, forward-thinking UX/UI Designer with fresh ideas and an unrivaled excitement about getting started in the industry.</p>
+        <button>View My Work</button>
+      </div>
+    </section>
+
+    <!------------- CONTACT AND COPYRIGHT. ------------>
     <footer>
-        <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Work</li>
-            <li>Contact</li>
-        </ul>
+      <ul>
+        <li>CONTACT</li>
+      </ul>
+        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+        <a href="#">Brittney Moore Designs</a></p>
     </footer>
-</body>
+  </body>
+
 </html>
