@@ -99,4 +99,12 @@ html {
     display: inline-block;
     padding: 0px 7px;
   }
-  
+  @media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
