@@ -1,10 +1,11 @@
 /* Color Palette 
-Dark Purple #1F0F18
-Light Purple #CBC1C5
-Light Grey #EBEBEB
-*/
+	Dark Purple #1F0F18
+	Light Purple #CBC1C5
+	Light Grey #EBEBEB
+	*/
+	
 
-html {
+	html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
@@ -16,25 +17,23 @@ html {
     color: #1F0F18;
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 15px;
     line-height: 1.5;
   }
 
   /************* Top DARK PURPLE Nav *********/
   header {
-    background-color: #1F0F18;
+    background-color: #1F0F18;  
   }
 
   .myName {
+    padding-left: 5px;
     display: flex;
     color: #EBEBEB;
     align-items: center;
-  }
-
-  h1 {
-    color: #fff;
-    font-family: 'Merriweather', serif;
+    font-family: 'Cinzel Decorative', cursive;
     -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
     -webkit-mask-size: 200%;
     animation: shine 3s linear infinite;
@@ -46,18 +45,18 @@ html {
   }
 
   .logo {
-    width: 100px;
+    width: 175px;
+    padding-right: 10px;
   }
 
   .bigNAVbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
   
   header ul {
-    color: white;
+    color: #CBC1C5;
   }
 
   header li {
@@ -69,12 +68,14 @@ html {
     background-color: #CBC1C5;
     text-decoration: none;
     padding: 8px;
+    padding-right: 10px;
     border-radius: 4px; 
     display: inline-block;
+    font-family: 'Playfair Display', serif;
 }
 .btn:hover {
-    color: #EBEBEB;
-    background-color: #222D44;
+    color: #1F0F18;
+    background-color: #ad8330;
 }
   
 /************* Hero Image *********/
@@ -90,6 +91,7 @@ html {
   
   .skills {
     background-color: black;
+    display: block;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -99,6 +101,7 @@ html {
     padding: 10px;
   }
 
+
   .skillsText {
     color: #EBEBEB;
   }
@@ -107,29 +110,22 @@ html {
     display: flex;   
     margin-top: 5px;
     margin-right: 5px; 
-    
   }
-  
+
   header p {
     display: inline-block;
   }
+  /******************* MIDDLE TEXT WITH "VIEW MY WORK" BUTTON ***********/
   .heroImg {
     background-color: #EBEBEB;
     padding: 100px 15px;
     width: max-width;
     height: auto;
-  }
-  #headshot {
-    width: 300px;
-  }
-  .content {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: #1F0F18;
-    color: white;
     text-align: center;
+    font-size: 25pt;
+    font-family: 'Playfair Display', serif;
   }
+ 
   button {
     padding: 15px;
     background-color: #1F0F18;
@@ -138,8 +134,11 @@ html {
     border-radius: 4px;
   }
   button:hover {
-    background: #a41ee9;
+    background: #ad8330;
+    color: #1F0F18;
   }
+
+
 
 
   /************* Footer *********/
@@ -148,9 +147,10 @@ html {
 {
   background-color:#1F0F18;
   padding:45px 0 20px;
-  font-size:15px;
+  font-size:20px;
   line-height:24px;
   color:#CBC1C5;
+  font-family: 'Playfair Display', serif;
 }
 .site-footer hr
 {
@@ -164,18 +164,20 @@ html {
 .site-footer h6
 {
   color:#CBC1C5;
-  font-size:16px;
+  font-size:20px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
 }
-.site-footer a
+/*************** BRITTNEY MOORE DESIGNS "LINK" **********/
+.site-footer a 
 {
-  color:#737373;
+  color: #CBC1C5;
+  text-decoration: underline;
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color: goldenrod;
   text-decoration:none;
 }
 .footer-links
@@ -189,7 +191,7 @@ html {
 }
 .footer-links a
 {
-  color:#737373
+  color:#CBC1C5
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -216,7 +218,8 @@ html {
 }
 .copyright-text
 {
-  margin:0
+  margin:0;
+  font-size: 15pt;
 }
 @media (max-width:991px)
 {
@@ -306,8 +309,6 @@ html {
     margin-right:0;
     font-weight:600
   }
-}
-
   
   footer {
     background-color: #1F0F18;
@@ -332,6 +333,6 @@ html {
   {
     display:block;
     margin-right:0;
-    font-weight:600
+    font-weight:600;
   }
 }
